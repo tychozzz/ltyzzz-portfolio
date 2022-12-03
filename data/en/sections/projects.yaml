@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Projects
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Smart Parking Lot Project
+    overview: Jointly led by Wuhan University of Technology and Hongxun Technology Co., Ltd.
+  positions:
+  - start: Nov 2021
+    end: July 2022
+    responsibilities:
+    - Design the overall framework of the system, including front-end and back-end technology selection, database design, etc.
+    - Design and develop the small program user interface.
+    - Realize the Back-End through Spring Boot and Spring Cloud.
+    - Complete hardware and software joint debugging test with other members.
+    - Analyze mobile payment schemes. 
+    - Deploy the project to the cloud server.
+
+- company:
+    name: Remote Procedure Call Framework Based on Zookeeper and Netty
+    overview: Mainly used for understanding distributed system better and solving remote call problem between mutiple service.
+  positions:
+  - start: Sept 2022
+    responsibilities:
+    - Write lots of example codes.
+    - Read lots of examples.
+    - See lots of example videos.
+
+- company:
+    name: Data Cleaning and Personalized Recommendation system Based on Spark and Kafka
+    overview: Used as a branch of the parking lot system to provide users with personalized recommendation services
+  positions:
+  - start: April 2022
+    end: June 2022
+    responsibilities:
+    - Write lots of example codes.
+    - Read lots of examples.
+    - See lots of example videos.
+
+- company:
+    name: Message Push Platform Based on Distributed Log and Message Queue 
+    overview: Mainly solve 
+  positions:
+  - start: Dec 2022
+    responsibilities:
+    - Write lots of example codes.
+    - Read lots of examples.
+    - See lots of example videos.
+

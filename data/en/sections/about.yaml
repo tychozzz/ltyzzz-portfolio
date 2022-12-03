@@ -1,0 +1,30 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Engineer
+
+summary: 'I am a new master student in Computing from National University of Singapore. I have been learning programming for three years. In my spare time, I like to develop some small projects of my own or make wheels, etc.'
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "ltyzzz2000@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://ltyzzzxxx.github.io/"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/tianyu-li-7068b8248/"
+
+# resourceLinks:
+# - title: "My Resume"
+#   url: "files/resume.pdf"

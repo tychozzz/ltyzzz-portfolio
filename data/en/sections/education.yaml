@@ -1,0 +1,23 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: B.E. in Information Engineering
+  icon: fa-graduation-cap
+  timeframe: 2018-2022
+  institution:
+    name: Wuhan University of Technology
+    url: "#"
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.8
+    outOf: 5
+  extracurricularActivities: #(optional)
+  - Participated in Undergraduate Independent Innovation Project
+  - Participated in School-Enterprise Cooperation Project
+  - Won School Scholarships for several times

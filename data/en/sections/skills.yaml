@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Java
+  logo: /images/sections/skills/java.png
+  summary: "Using as the main language for professional development, especailly for back-end development. Know the basic fundamentals of JVM."
+  url: "https://kubernetes.io/"
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "Know basic Python programming. Used for basic data structure and algothrim programming, occasionally crawlers to get data."
+  url: "https://golang.org/"
+
+- name: Spring
+  logo: /images/sections/skills/spring.png
+  summary: "The most frequently used back-end framework for me."
+
+- name: MySQL
+  logo: /images/sections/skills/mysql.png
+  summary: "Using as the main SQL for data storage. Know its basic features, such as indexes, locks, transactions, etc."
+  url: "https://www.docker.com/"
+
+- name: Redis
+  logo: /images/sections/skills/redis.png
+  summary: "Using as the main Cache in my daily development. Know its basic features, such as efficient underlying data structure, duration, master-slave architecture, etc. Also implemented a toy distributed lock through redis."
+  url: "https://prometheus.io/"
+
+- name: Distributed Systems
+  logo: /images/sections/skills/distributed.png
+  summary: "Know some basic distributed system concepts and protocols, such as Paxos, Raft, microservice, etc. Once wrote a simple toy RPC framework implementing basic functions."
+
+- name: HTML
+  logo: /images/sections/skills/html.png
+  summary: "Know the basic usage of HTML, CSS, Javascript."
+
+- name: Vue
+  logo: /images/sections/skills/vue.png
+  summary: "Use Vue front-end framework to develop web for PC and mobile (not professional)."
+  url: "https://git-scm.com/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Use git as main version control tool."
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Know basic commands of linux. Use it for server deloying."

@@ -1,0 +1,36 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: ltyzzz-rpc
+  logo: /images/sections/skills/distributed.png
+  role: Owner
+  timeline: "Oct 2022 - Present"
+  repo: https://github.com/ltyzzzxxx/ltyzzz-rpc 
+  summary: Remote Procedure Call Framework Based on Zookeeper and Netty
+  tags: ["professional", "rpc", "distributed"]
+
+- name: Leetcode-Everyday
+  logo: /images/sections/projects/tensorflow.png
+  role: Owner
+  timeline: "Oct 2022 - Present"
+  repo: https://github.com/ltyzzzxxx/Leetcode-Everyday
+  summary: An open-source leetcode-problem-solving repo to improve my understanding of data structures and help others at the same time.
+  tags: ["hobby", "data structure", "algorithm"]

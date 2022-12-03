@@ -1,0 +1,18 @@
+# some information about you
+name: "Li Tianyu"
+nickname: "ltyzzz"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/avatar.jpeg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "ltyzzz2000@gmail.com"
+  phone: "+65 87904250"
+  github: ltyzzzxxx
+  linkedin: tianyu-li-7068b8248
+
+# some summary about what you do
+summary:
+  - I am a Back-End Developer.
+  - Big fan of coding.
+  - Pleasure to meet you!
