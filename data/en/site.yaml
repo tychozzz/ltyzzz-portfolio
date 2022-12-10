@@ -15,6 +15,11 @@ customMenus:
   hideFromNavbar: false
   showOnFooter: false
 
+- name: Algo
+  url: http://algo.ltyzzz.com/
+  hideFromNavbar: false
+  showOnFooter: false
+
 openGraph:
   title: ltyzzz's Portfolio
   type: website
