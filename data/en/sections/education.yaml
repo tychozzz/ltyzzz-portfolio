@@ -7,6 +7,13 @@ section:
   showOnNavbar: true
 
 degrees:
+- name: Master of Computing
+  icon: fa-graduation-cap
+  timeframe: 2018-Present
+  institution:
+    name: National University of Singapore
+    url: "#"
+
 - name: B.E. in Information Engineering
   icon: fa-graduation-cap
   timeframe: 2018-2022

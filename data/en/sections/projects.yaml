@@ -11,28 +11,32 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Remote Procedure Call Framework Based on Zookeeper and Netty
+    overview: Mainly used for solving remote call problem with mutiple service.
+  positions:
+  - start: Sept 2022
+    responsibilities:
+    - Realized the Proxy layer, Routing layer, Registration Center layer and Serialization layer.
+    - Used zookeeper as the service registration and discovery center.
+    - Used polling algorithm and random selection algorithm as Routing Layer protocol.
+    - Used Hessian and Kryo for Serialization and Deserialization.
+    - Used the Chain of Responsibility design pattern to filter requests.
+    - Implemented Service Protection through timeout retransmission and service current limiting.
+    - Simplified usage of the framework by combining with Spring-Boot-Starter
+
+- company:
     name: Smart Parking Lot Project
     overview: Jointly led by Wuhan University of Technology and Hongxun Technology Co., Ltd.
   positions:
   - start: Nov 2021
     end: July 2022
     responsibilities:
-    - Design the overall framework of the system, including front-end and back-end technology selection, database design, etc.
-    - Design and develop the small program user interface.
-    - Realize the Back-End through Spring Boot and Spring Cloud.
-    - Complete hardware and software joint debugging test with other members.
-    - Analyze mobile payment schemes. 
-    - Deploy the project to the cloud server.
-
-- company:
-    name: Remote Procedure Call Framework Based on Zookeeper and Netty
-    overview: Mainly used for understanding distributed system better and solving remote call problem between mutiple service.
-  positions:
-  - start: Sept 2022
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Designed and developed background management system and small program UI.
+    - Developed the Back-End system through Spring Boot and Spring Cloud with micro services.
+    - Improved overall performance through Redis Cache and Decreased coupling though Message Queue.
+    - Ensured system can host 1000 concurrent users through stress test. 
+    - Assisted colleagues to complete the joint testing of hardware and software systems.
+    - Deployed the project to the cloud server.
 
 - company:
     name: Data Cleaning and Personalized Recommendation system Based on Spark and Kafka
@@ -41,17 +45,19 @@ experiences:
   - start: April 2022
     end: June 2022
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Used Mongodb as main database and Redis as cache.
+    - Implemented batch statistical service using Spark Core + Spark SQL.
+    - Implemented offline recommendation service through ALS algorithm and Spark Core + Spark MLlib.
+    - Implemented log collection service through Flume framework to collect user rating data. 
+    - Implemented Real-time recommendation service through Spark Streaming and processed user data through custom recommendation algorithms.
 
-- company:
-    name: Message Push Platform Based on Distributed Log and Message Queue 
-    overview: Mainly solve 
-  positions:
-  - start: Dec 2022
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+# - company:
+#     name: Message Push Platform Based on Distributed Log and Message Queue 
+#     overview: Mainly solve 
+#   positions:
+#   - start: Dec 2022
+#     responsibilities:
+#     - Write lots of example codes.
+#     - Read lots of examples.
+#     - See lots of example videos.
 
