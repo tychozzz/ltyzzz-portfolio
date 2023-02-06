@@ -11,10 +11,22 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: RiytiyTube - Bullet Chat Video Sharing Website
+    overview: Core Service -> Video Play, Post Push, Instant Messaging, Social Networking, etc.
+  positions:
+  - start: Jan 2023
+    responsibilities:
+    - Developed Front-End Website using Vue3.0 and Nuxt framework.
+    - Developed Counting Service which is mainly used for voting up, following, statistics, etc.
+    - Designed and Realized Post-Feed Service by adopting push-pull mode.
+    - Designed and Realized Site Message System.
+
+- company:
     name: Remote Procedure Call Framework Based on Zookeeper and Netty
     overview: Mainly used for solving remote call problem with mutiple service.
   positions:
   - start: Sept 2022
+    end: Dece 2022
     responsibilities:
     - Realized the Proxy layer, Routing layer, Registration Center layer and Serialization layer.
     - Used zookeeper as the service registration and discovery center.
