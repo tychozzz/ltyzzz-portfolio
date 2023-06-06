@@ -14,26 +14,42 @@ skills:
 - name: Java
   logo: /images/sections/skills/java.png
   summary: "Using as the main language for professional development, especailly for back-end development. Know the basic fundamentals of JVM."
-  url: "https://kubernetes.io/"
+  url: "https://www.java.com/zh-CN/"
 
 - name: Python
   logo: /images/sections/skills/python.png
   summary: "Know basic Python programming. Used for basic data structure and algothrim programming, occasionally crawlers to get data."
+  url: "https://www.python.org/"
+
+- name: Go
+  logo: /images/sections/skills/go.png
+  summary: "Know basic Go programming. I am currently learning how to develop websites through the Gin or Goframework and I will further study how to build microservices using Go."
   url: "https://golang.org/"
+
+- name: Php
+  logo: /images/sections/skills/php.png
+  summary: "Trying out different programming languages is my interest, and I am also amazed by the powerful design concept of Laravel framework (convention over configuration) which frees me from repetitive and boring development work."
+  url: "https://www.php.net/"
 
 - name: Spring
   logo: /images/sections/skills/spring.png
   summary: "The most frequently used back-end framework for me."
+  url: "https://spring.io/"
 
 - name: MySQL
   logo: /images/sections/skills/mysql.png
   summary: "Using as the main SQL for data storage. Know its basic features, such as indexes, locks, transactions, etc."
-  url: "https://www.docker.com/"
+  url: "https://www.mysql.com/"
 
 - name: Redis
   logo: /images/sections/skills/redis.png
   summary: "Using as the main Cache in my daily development. Know its basic features, such as efficient underlying data structure, duration, master-slave architecture, etc. Also implemented a toy distributed lock through redis."
-  url: "https://prometheus.io/"
+  url: "https://redis.io/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.png
+  summary: "Using Docker to deploy various services in containerized manner. When setting up a project, it is also my first choice."
+  url: "https://hub.docker.com/"
 
 - name: Distributed Systems
   logo: /images/sections/skills/distributed.png
@@ -46,7 +62,12 @@ skills:
 - name: Vue
   logo: /images/sections/skills/vue.png
   summary: "Use Vue front-end framework to develop web for PC and mobile (not professional)."
-  url: "https://git-scm.com/"
+  url: "https://vuejs.org/"
+
+- name: React
+  logo: /images/sections/skills/react.png
+  summary: "Use Vue front-end framework to develop web for PC and mobile (not professional)."
+  url: "https://react.dev/"
 
 - name: Git
   logo: /images/sections/skills/git.png

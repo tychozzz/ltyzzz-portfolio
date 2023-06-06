@@ -11,15 +11,28 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: KillBug - Programming Q&A BBS
+    overview: Your Most Reliable Programming Assistant. 
+  positions:
+  - start: April 2023
+    responsibilities:
+    - Implemented core functions such as posting questions, posting rewards, liking, commenting, etc.
+    - Adopting the WebSocket protocol implemented real-time communication and collaborative editing functions, making it easy for users to collaborate on coding.
+    - By using the Spring Cloud microservice technology stack (Nacos, Gateway, Sentinel), the project implements microservice governance to ensure high availability of services. The Gateway is used to implement global authentication, global exception handling, global throttling, and global security verification.
+    - By using Dubbo RPC technology to enable communication between microservices.
+    - Implemented sensitive data(phone, email, etc.) desensitization through AOP, Annotation and Serialization techniques to protect user privacy.
+    - Deployed microservices and middlewares through Docker, reducing deployment costs and makes maintenance and migration easier.
+
+- company:
     name: RiytiyTube - Bullet Chat Video Sharing Website
-    overview: Core Service -> Video Play, Post Push, Instant Messaging, Social Networking, etc.
+    overview: Distributed Microservice Project based on Spring Cloud. Core Service -> Video Play, Post Push, Instant Messaging, Social Networking, etc.
   positions:
   - start: Jan 2023
     responsibilities:
-    - Developed Front-End Website using Vue3.0 and Nuxt framework.
-    - Developed Counting Service which is mainly used for voting up, following, statistics, etc.
+    - Developed Front-End Website using Vue3.0 and Nuxt framework, achieving server-side rendering..
+    - By using Redis caching technology, a general counting service is built to implement functions such as liking, counting, and statistics, which improves system scalability and high performance.
     - Designed and Realized Post-Feed Service by adopting push-pull mode.
-    - Designed and Realized Site Message System.
+    - Designed a site-wide notification system that implements message notification and forwarding..
 
 - company:
     name: Remote Procedure Call Framework Based on Zookeeper and Netty
